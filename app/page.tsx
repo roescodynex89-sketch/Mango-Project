@@ -9,7 +9,7 @@ const page = () => {
     <>
       <Banner />
       <Moving />
-      {/* mangose skip */}
+      {/* mangose skipeeee */}
       <HomeMango />
       <WhyChoose />
       <Review />
