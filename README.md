@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🥭 MangoCart - Mango Review & Marketplace
 
-## Getting Started
+📌 Project Overview
 
-First, run the development server:
+MangoCart is a full-stack web application where users can explore different mango varieties, view detailed information, read comments, and share their own mango reviews. Authenticated users can add new mango listings, manage their own mangoes, and interact with the community through comments.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🌐 Public Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Responsive Home Page
+- Explore All Mangoes
+- Search, Filter & Pagination
+- Mango Details Page
+- About & Contact Pages
 
-## Learn More
+🔐 Authentication
 
-To learn more about Next.js, take a look at the following resources:
+- Login & Registration (Better Auth)
+- Protected Routes
+- Secure User Session
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👤 User Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Add New Mango
+- Manage Own Mangoes
+- Comment on Mangoes
+- Edit/Delete Own Comments
+- My Profile
+- My Interactions
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🛠️ Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Frontend
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- TanStack Query
+- React Hook Form
+
+Backend
+
+- Express.js
+- TypeScript
+- MongoDB
+- JWT Authentication
+- Cookie Parser
+
+---
+
+
+🔑 Authentication
+
+- Better Auth for Login & Registration
+- Protected Routes
+- Secure Authentication
+- Authorized CRUD Operations
+
+---
+
+📦 Main APIs
+
+Authentication
+
+- Login
+- Register
+- Logout
+- Current User
+
+Mango
+
+- Get All Mangoes
+- Get Mango Details
+- Add Mango
+- Update Mango
+- Delete Mango
+
+Comments
+
+- Add Comment
+- Edit Comment
+- Delete Comment
+- My Comments
+
+---
+
+📱 Responsive Design
+
+- Mobile
+- Tablet
+- Desktop
+
+---
+
+🎯 Future Improvements
+
+- Rating System
+- Wishlist
+- Shopping Cart
+- Order Management
+- Admin Dashboard
+- Image Upload
+- Dark Mode
+- Payment Gateway
+
+---
+
+👨‍💻 Developed By
+
+Estiak Aktar Roes
+
+Full Stack Developer
