@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion , Variants } from "framer-motion";
 import { FiStar, FiCheckCircle } from "react-icons/fi";
 
 const Review = () => {
@@ -36,7 +36,7 @@ const Review = () => {
     },
   };
 
-  const cardVariants = {
+  const cardVariants :Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: {
       opacity: 1,

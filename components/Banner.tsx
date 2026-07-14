@@ -2,7 +2,7 @@
 
 // import Image from "next/image";
 // import Link from "next/link";
-// import { motion , Variants } from "framer-motion";
+// import { motion } from "framer-motion";
 // import {
 //   FiArrowRight,
 //   FiStar,
@@ -72,10 +72,6 @@ const Banner = () => {
       },
     },
   };
-
-
-
-
 
   return (
     <section className="relative bg-amber-100 overflow-hidden py-16 lg:py-24">
