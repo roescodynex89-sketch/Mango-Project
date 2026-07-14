@@ -1,8 +1,46 @@
+// "use client";
+
+// import Image from "next/image";
+// import Link from "next/link";
+// import { motion , Variants } from "framer-motion";
+// import {
+//   FiArrowRight,
+//   FiStar,
+//   FiAward,
+//   FiShield,
+//   FiTruck,
+//   FiDollarSign,
+// } from "react-icons/fi";
+
+// const Banner = () => {
+//   // Framer Motion Variants for Staggered Animation
+//   const containerVariants = {
+//     hidden: { opacity: 0 },
+//     visible: {
+//       opacity: 1,
+//       transition: {
+//         staggerChildren: 0.15,
+//       },
+//     },
+//   };
+
+//   const itemVariants = {
+//     hidden: { opacity: 0, y: 30 },
+//     visible: {
+//       opacity: 1,
+//       y: 0,
+//       transition: {
+//         duration: 0.6,
+//         ease: "easeOut",
+//       },
+//     },
+//   };
+
 "use client";
 
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import {
   FiArrowRight,
   FiStar,
@@ -13,8 +51,7 @@ import {
 } from "react-icons/fi";
 
 const Banner = () => {
-  // Framer Motion Variants for Staggered Animation
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -24,7 +61,7 @@ const Banner = () => {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: {
       opacity: 1,
@@ -35,6 +72,10 @@ const Banner = () => {
       },
     },
   };
+
+
+
+
 
   return (
     <section className="relative bg-amber-100 overflow-hidden py-16 lg:py-24">
